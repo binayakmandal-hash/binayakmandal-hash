@@ -31,7 +31,7 @@ Most of my projects start as a sketch in my notebook.
 
 Try them live: [ScamShield AI](https://scamshield-ai-yln0.onrender.com) and [Smart Study Planner](https://smart-study-planner-3wz3.onrender.com). They're on Render's free tier, so the first load can take about a minute.
 
-I also work on [Stuck Doctor](https://github.com/KK-Dev0/Stuck_Doctor) for Hacktoberfest 2026, which helps people who keep putting off a doctor's visit actually book one. My first complete web project was [UniCalc](https://github.com/binayakmandal-hash/unicalculator), five student calculators in one Flask app.
+My first complete web project was [UniCalc](https://github.com/binayakmandal-hash/unicalculator), five student calculators in one Flask app.
 
 ### What I'm working on
 
