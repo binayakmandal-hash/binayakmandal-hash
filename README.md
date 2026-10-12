@@ -42,7 +42,7 @@ My first complete web project was [UniCalc](https://github.com/binayakmandal-has
 
 ### What I'm working on
 
-- Getting better at data structures and algorithms in Python
+- Getting better at data structures and algorithms in Python, one problem a day in [dsa-python](https://github.com/binayakmandal-hash/dsa-python)
 - Planning **Thinkboard**, a real-time whiteboard where an AI joins as a teammate
 - Smart India Hackathon 2026 with team VAYUVEGA
 
