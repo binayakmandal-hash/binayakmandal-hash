@@ -33,6 +33,13 @@ Try them live: [ScamShield AI](https://scamshield-ai-yln0.onrender.com) and [Sma
 
 My first complete web project was [UniCalc](https://github.com/binayakmandal-hash/unicalculator), five student calculators in one Flask app.
 
+### 2026 so far
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
+  <img src="assets/timeline-light.svg" width="100%" alt="2026 so far. September: Smart India Hackathon, model lead on PRISM-TC; ISRO MOSDAC data access approved; September 30: UniCalc goes live. October 1: DevConnect campus ambassador at AEC; ScamShield AI at Hacktoberfest Hack Day; October 6: Smart Study Planner goes live, built in public; October 11: TalentLens AI sent in to SPARKIIT.">
+</picture>
+
 ### What I'm working on
 
 - Getting better at data structures and algorithms in Python
@@ -46,7 +53,13 @@ My first complete web project was [UniCalc](https://github.com/binayakmandal-has
   <img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,flask,js,html,css,java,php,mysql,sqlite,git,docker,githubactions&theme=light" alt="Python, PyTorch, scikit-learn, Flask, JavaScript, HTML, CSS, Java, PHP, MySQL, SQLite, Git, Docker, GitHub Actions">
 </picture>
 
-### A year of commits
+### By the numbers
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/binayakmandal-hash/binayakmandal-hash/output/notes-dark.svg">
+  <img src="https://raw.githubusercontent.com/binayakmandal-hash/binayakmandal-hash/output/notes-light.svg" width="100%" alt="My GitHub numbers: contributions in the last year, current streak, public repos and the languages I write in. Redrawn every morning.">
+</picture>
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/binayakmandal-hash/binayakmandal-hash/output/snake-dark.svg">

@@ -1,4 +1,5 @@
-# Redraws the contribution-graph snake every day and publishes it to the `output` branch.
+# Every morning: redraws the contribution snake and the "by the numbers" card,
+# then publishes both to the `output` branch that the README points at.
 name: Contribution snake
 
 on:
@@ -16,6 +17,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Keep yesterday's card in case today's API call fails
+        run: git fetch --depth 1 origin output && git worktree add prev FETCH_HEAD || mkdir -p prev
+
+      # Runs before the snake: the snake step runs in a container as root,
+      # so anything that needs to write into dist/ afterwards would be blocked.
+      - name: Draw the numbers card
+        run: python3 scripts/notes_card.py dist prev
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
       - name: Draw the snake
         uses: Platane/snk@v3
         with:
